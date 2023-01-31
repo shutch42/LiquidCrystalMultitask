@@ -1,6 +1,6 @@
 # LiquidCrystalMultitask Library for Arduino
 
-This library is a fork of the LiquidCrystal for Arduino, but with a few improvements. The goal with this project is to remove the use of delay() statements from the LiquidCrystal library, so that the main program can continue working without delay as the LCD updates.  
+This library is a fork of the LiquidCrystal library for Arduino, but with a few improvements. The goal with this project is to remove the use of delay() statements from the LiquidCrystal library, so that the main program can continue working without delay as the LCD updates.  
 
 This will be useful for projects which require the arduino to process data at intervals on the scale of microseconds, and simultaneously update the LCD at longer time intervals.
 
